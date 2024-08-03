@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 900;
+    color: red;
+}
+h2{
+    margin:1rem;
+    margin-left:0rem ;
+   
+}
+.CSA-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+
+.header-image {
+    max-height: 15rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0rem;
+}
+
+.security-image {
+    width: 50%;
+    height: 70%;
+    
+}
